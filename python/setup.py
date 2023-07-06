@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'ros2_pkg_template'
+package_name = 'rclpy_pkg_template'
 
 setup(
     name=package_name,
@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'rgb_image_sub = rclpy_pkg_template.rgb_image_subscriber:main'
         ],
     },
 )
