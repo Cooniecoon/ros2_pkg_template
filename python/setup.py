@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'rgb_image_sub = rclpy_pkg_template.rgb_image_subscriber:main'
+            'rgb_image_sub = rclpy_pkg_template.rgb_image_subscriber:main',
+            'rgbd_image_sub = rclpy_pkg_template.rgbd_image_subscriber:main'
         ],
     },
 )
